@@ -1,0 +1,15 @@
+# مشروع فيودكس - لا يحمل نواة FuERP، يحمل ما يميّزه فقط.
+# أي إصلاح في الكود الأساسي يُكتب في fuerp-fudex ثم يَصل هنا بتغيير core_ref.
+#
+#   name        اسم المشروع، ويُستخدم في السجلّات ورسائل النشر
+#   core_repo   ريبو النواة (الوحيد الذي تصلح فيه الكود الأساسي)
+#   core_ref    وسم النواة الذي يبني عليه هذا المشروع
+#   app_root    شجرة التطبيق على السيرفر
+#   tenants     المستأجرون الذين يخدمهم هذا الريبو
+
+name: fudex
+core_repo: https://github.com/mopng99/fuerp-fudex.git
+core_ref: main
+app_root: /opt/fuerp
+tenants:
+  - fudex
